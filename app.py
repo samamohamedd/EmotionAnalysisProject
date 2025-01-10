@@ -1,7 +1,7 @@
 import streamlit as st
 from tensorflow.keras.models import load_model
 import numpy as np
-from PIL import Image
+from PIL import Image 
 
 # Load the pre-trained model
 model = load_model('model.keras')

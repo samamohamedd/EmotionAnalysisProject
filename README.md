@@ -1,6 +1,5 @@
 # EmotionAnalysisProject
- 
-# Emotion Analysis Project
+
 
 This project uses computer vision to classify facial expressions into seven emotion categories:
 - 0 = Angry

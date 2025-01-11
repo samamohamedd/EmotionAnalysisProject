@@ -1,7 +1,6 @@
-tensorflow==2.9.1
+pickle
 streamlit
 numpy
 pandas
 opencv-python
 Pillow
-pickle

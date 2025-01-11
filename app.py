@@ -4,9 +4,7 @@ import numpy as np
 from PIL import Image 
 
 # Load the pre-trained model
-model = pickle.load(
-        open("models/model.pkl", "rb")
-    )
+model = pickle.load(open("models/model.pkl", 'rb'))
 
 # Define emotion labels
 emotion_labels = ["Angry", "Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"]

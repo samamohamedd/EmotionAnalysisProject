@@ -1,5 +1,5 @@
-tensorflow
-pickle
+tensorflow==2.12.0 
+pickle5
 streamlit
 numpy
 pandas

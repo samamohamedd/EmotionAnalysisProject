@@ -5,7 +5,7 @@ from PIL import Image
 
 # Load the pre-trained model
 model = pickle.load(
-        open("/mount/src/emotionanalysisproject/app/models/model.pkl", "rb")
+        open("/mount/src/emotionanalysisproject/app/model.pkl", "rb")
     )
 
 # Define emotion labels

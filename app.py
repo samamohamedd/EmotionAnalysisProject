@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle 
-import numpy as np
+import numpy as np 
 from PIL import Image 
 
 # Load the pre-trained model

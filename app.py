@@ -1,10 +1,12 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
+import pickle 
 import numpy as np
 from PIL import Image 
 
 # Load the pre-trained model
-model = load_model('model.keras')
+model = pickle.load(
+        open("/mount/src/doc_emotionrecognition/app/models/model.pkl", "rb")
+    )
 
 # Define emotion labels
 emotion_labels = ["Angry", "Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"]
